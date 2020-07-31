@@ -1,0 +1,12 @@
+certifi==2019.9.11
+chardet==3.0.4
+idna==2.8
+mysql-connector-python==8.0.17
+phonenumbers==8.10.23
+PyJWT==1.7.1
+pytz==2019.3
+requests==2.22.0
+six==1.13.0
+twilio==6.33.1
+urllib3==1.25.7
+validate-email==1.3

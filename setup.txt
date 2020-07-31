@@ -1,0 +1,33 @@
+**It is assumed that python and Mysql is installed your Laptop.
+**Also Python Package Manager(pip)
+
+
+ 
+1) Install Mysql Connector:
+   Go to the given link and then install it, according to your Laptop OS.
+   - https://dev.mysql.com/downloads/connector/python/
+  
+2) Create a new Google account for running the code.
+
+3) Allow Access For less secure apps in your Gmail account here.
+   -https://myaccount.google.com/lesssecureapps
+
+4) Get registered on Twilio site and get number, account_sid and auth_token to use the messaging service.
+   Go to the given link and then get registered yourself
+   -https://www.twilio.com/try-twilio
+   
+5) Enter Your G-mail Id and Password for sending Mail to the User(in config_pass.py).Also enter your twilio account details and 
+   MysQL username and password in same file. 
+
+6) Execute "python -m pip install -r requirements.txt"
+
+7) Run main_file.py(main python Script)
+
+******** what Files Do: **********
+1. config_pass.py ->> Configuring Gmail Id and Password.
+2. library_install.sh ->> For installing Libraries.
+3. sql_data.py ->> For setting Database.(To be Run Only Once)
+4. home_screen.py ->> Creating the home screen which shows necessary details
+5. checkout_screen.py ->> Check-out screen 
+6. check_in.py ->>Sends an e-mail and SMS to the host after check-in
+7. check_out.py ->> Sends an Email to the visitor after visitor check-out        
