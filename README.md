@@ -1,5 +1,3 @@
-# Summer Internship Innovacer SDE
-
 # Entry-Management-Software
 
 ### Prerequisites
@@ -47,27 +45,27 @@ user in the Entry tab and storing them at the backend (by creating a mysql datab
 Visitor Name, Visitor Phone number, Visitor Email ID, Host Name, Host Phone number, Host Email ID, Check-in time, Check-out time.
                                   **How data is stored** in the table in the Database.
 
-![alt text](https://github.com/bhanupsingh10/Innovacer-SDE-Intern/blob/master/Images/data_stored.png)
+![alt text](https://github.com/bhanupsingh10/Entry-Management-Software/blob/master/Images/data_stored.png)
 If the host details are there in the database, then they are directly fetched or otherwise a pop-up window opens and ask the user to enter correct details.All the entries are to be properly filled without leaving any of them empty as leaving empty would result in displaying and error message pop-up box which would ask the user to fill the required details.
 
 Once the visitor checks in, an Email is triggered to the Host informing the host about the details of the visitor.
 The **e-mail sent to the host** about the contact no. of Visitor.
 
 
-![alt text](https://github.com/bhanupsingh10/Innovacer-SDE-Intern/blob/master/Images/host_email_check-in.png)
+![alt text](https://github.com/bhanupsingh10/Entry-Management-Software/blob/master/Images/host_email_check-in.png)
 An SMS is also sent to the host on his/her mobile no. once the visitor checks-in. The SMS is sent from the number on **Twilio** to the registered number.
 
 
-![alt text](https://github.com/bhanupsingh10/Innovacer-SDE-Intern/blob/master/Images/checkin_host_sms.png)
+![alt text](https://github.com/bhanupsingh10/Entry-Management-Software/blob/master/Images/checkin_host_sms.png)
 
 After the meeting or visit is over, the visitor is supposed to check-out and enter his email id in the check-out window.
-The **Check-Out Screen GUI** Image of Entry Management Software after successful check-out.
+The **Check-Out Screen GUI** Image of Entry Management Software.
 
 ![alt text](https://github.com/bhanupsingh10/Entry-Management-Software/blob/master/Images/checkout_screen.PNG)
 
 The check-out button inturn triggers an **email to the visitor** after meeting is over and visitor has checked-out stating the details of the meeting(check-in time and check-out time),address of the meeting and Visitor's details like Name,email id and phone number.
 
-![alt text](https://github.com/bhanupsingh10/Innovacer-SDE-Intern/blob/master/Images/visitor_email_check-out.png)
+![alt text](https://github.com/bhanupsingh10/Entry-Management-Software/blob/master/Images/visitor_email_check-out.png)
 
 The database is updated at every Entry and Exit operation with Entry and Exit time of the Visitor.
 
@@ -76,12 +74,10 @@ As all the entries are compulsary for the user to enter, if the visitor leaves a
 or does not enter a valid email id a warning message is shown on the screen.
 The email address and phone number of Visitor and Host are validted.
 Here are few of the exceptions handled by the software:
+
 When the user enters the **invalid email-id of host**, a message is shown in the pop-up which asks to enter correct host email-id.
-![alt text](https://github.com/bhanupsingh10/Innovacer-SDE-Intern/blob/master/Images/invalid_host_email.png)
 
 When the user enters the **invalid contact number of host**, a message is shown in the pop-up which asks to enter correct visitor contact    number.
-
-![alt text](https://github.com/bhanupsingh10/Innovacer-SDE-Intern/blob/master/Images/invalid_vis_mobile.png)
 
 ### Limitations :
 As messaging service is paid, hence the trial version does not send SMS everytime to the Host.
