@@ -39,7 +39,7 @@ This Entry Management GUI works by accepting details like Visitor's Name, Phone 
 user in the Entry tab and storing them at the backend (by creating a mysql database).
                           The **Home-Screen GUI** Image of Entry Management Software.
                           
-![alt text](https://github.com/bhanupsingh10/Innovacer-SDE-Intern/blob/master/Images/home_screen.png)
+![alt text](https://github.com/bhanupsingh10/Entry-Management-Software/blob/master/Images/home_screen.png)
 
 
 
@@ -63,7 +63,7 @@ An SMS is also sent to the host on his/her mobile no. once the visitor checks-in
 After the meeting or visit is over, the visitor is supposed to check-out and enter his email id in the check-out window.
 The **Check-Out Screen GUI** Image of Entry Management Software after successful check-out.
 
-![alt text](https://github.com/bhanupsingh10/Innovacer-SDE-Intern/blob/master/Images/checkout_success.png)
+![alt text](https://github.com/bhanupsingh10/Entry-Management-Software/blob/master/Images/checkout_screen.PNG)
 
 The check-out button inturn triggers an **email to the visitor** after meeting is over and visitor has checked-out stating the details of the meeting(check-in time and check-out time),address of the meeting and Visitor's details like Name,email id and phone number.
 
