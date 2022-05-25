@@ -3,7 +3,7 @@ chardet==3.0.4
 idna==2.8
 mysql-connector-python==8.0.17
 phonenumbers==8.10.23
-PyJWT==1.7.1
+PyJWT==2.4.0
 pytz==2019.3
 requests==2.22.0
 six==1.13.0
